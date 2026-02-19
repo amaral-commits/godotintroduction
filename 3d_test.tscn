@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bmg8neatjd73o"]
+
+[ext_resource type="Material" uid="uid://bg8xbhcprrlqi" path="res://Materials/myfirstmaterial.tres" id="1_g22v7"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_linea"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_g22v7"]
+
+[node name="Node3D" type="Node3D" unique_id=1398823008]
+
+[node name="snowmen" type="Node3D" parent="." unique_id=748061304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.026875734, 0)
+
+[node name="legs" type="MeshInstance3D" parent="snowmen" unique_id=1357566909]
+transform = Transform3D(-1.3952808, 0, 0.82045126, 0, 1.7045455, 0, -0.80556583, 0, -1.4210632, 0.20988297, 0.28633785, -0.07339263)
+material_override = ExtResource("1_g22v7")
+mesh = SubResource("SphereMesh_linea")
+
+[node name="chest" type="MeshInstance3D" parent="snowmen" unique_id=1421977103]
+transform = Transform3D(-1.0245715, 0, 0.57950157, 0, 1.0873852, 0, -0.59153676, 0, -1.003726, 0.20988297, 1.5023968, -0.07339263)
+mesh = SubResource("SphereMesh_linea")
+surface_material_override/0 = ExtResource("1_g22v7")
+
+[node name="head" type="MeshInstance3D" parent="snowmen" unique_id=2013119199]
+transform = Transform3D(-0.60621774, 0, 0.36200002, 0, 0.682, 0, -0.35000002, 0, -0.62700236, 0.20988297, 2.3208883, -0.07339263)
+material_override = ExtResource("1_g22v7")
+mesh = SubResource("SphereMesh_linea")
+
+[node name="arms" type="MeshInstance3D" parent="snowmen" unique_id=203649128]
+transform = Transform3D(0.019217933, 0, 1.9107202, 0, 0.42036283, 0, -0.18609509, 0, 0.19731897, 0.19643092, 1.5632741, -0.1384058)
+material_override = ExtResource("1_g22v7")
+mesh = SubResource("BoxMesh_g22v7")

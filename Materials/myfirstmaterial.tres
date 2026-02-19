@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bg8xbhcprrlqi"]
+
+[ext_resource type="Texture2D" uid="uid://botrgacava1qh" path="res://Sprites/fox sprite.png" id="1_ns6hb"]
+
+[resource]
+depth_draw_mode = 1
+albedo_texture = ExtResource("1_ns6hb")
+metallic = 1.0
+roughness = 0.45

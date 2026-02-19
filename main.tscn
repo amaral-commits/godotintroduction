@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://botrgacava1qh" path="res://Sprites/fox sprite.png" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://dw7gny16dn7qo" path="res://ball.tscn" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://cgwg80lq5tyi4" path="res://Sprites/Player.png" id="3_h2yge"]
 
 [node name="Main" type="Node2D" unique_id=968314353]
 
@@ -52,3 +53,7 @@ position = Vector2(437, 161)
 
 [node name="Ball3" parent="." unique_id=939495042 instance=ExtResource("2_0xm2m")]
 position = Vector2(555, 161)
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1477950677]
+position = Vector2(444, 411)
+texture = ExtResource("3_h2yge")
