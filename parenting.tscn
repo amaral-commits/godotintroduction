@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cw7badwn3juq"]
+
+[ext_resource type="Texture2D" uid="uid://botrgacava1qh" path="res://Sprites/fox sprite.png" id="1_ootj8"]
+[ext_resource type="Texture2D" uid="uid://cfvcxwhyu40fs" path="res://Sprites/Coin.png" id="2_447uq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ootj8"]
+size = Vector2(65.65662, 70.67203)
+
+[node name="Main" type="Node2D" unique_id=376339208]
+
+[node name="FoxSprite" type="Sprite2D" parent="." unique_id=1062422139]
+position = Vector2(283, 325)
+scale = Vector2(2.1932287, 2.1932287)
+texture = ExtResource("1_ootj8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FoxSprite" unique_id=38522456]
+position = Vector2(0.45594788, 0.684021)
+shape = SubResource("RectangleShape2D_ootj8")
+
+[node name="Coin" type="Sprite2D" parent="FoxSprite" unique_id=2046769044]
+position = Vector2(-23.709328, 26.445023)
+scale = Vector2(0.4559488, 0.4559488)
+texture = ExtResource("2_447uq")

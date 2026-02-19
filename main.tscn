@@ -1,9 +1,54 @@
 [gd_scene format=3 uid="uid://bq86rk42bkd80"]
 
 [ext_resource type="Texture2D" uid="uid://botrgacava1qh" path="res://Sprites/fox sprite.png" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://dw7gny16dn7qo" path="res://ball.tscn" id="2_0xm2m"]
 
 [node name="Main" type="Node2D" unique_id=968314353]
 
 [node name="player" type="Sprite2D" parent="." unique_id=111368584]
-position = Vector2(200, 150)
+position = Vector2(218, 143)
+scale = Vector2(1.584312, 1.584312)
 texture = ExtResource("1_ig7tw")
+
+[node name="player2" type="Sprite2D" parent="." unique_id=1080170241]
+position = Vector2(125, 141)
+scale = Vector2(1.039821, 1.1340905)
+texture = ExtResource("1_ig7tw")
+
+[node name="player3" type="Sprite2D" parent="." unique_id=1900227453]
+position = Vector2(307, 142)
+scale = Vector2(1.039821, 1.1340905)
+texture = ExtResource("1_ig7tw")
+
+[node name="player4" type="Sprite2D" parent="." unique_id=1446939948]
+position = Vector2(286, 41.99997)
+rotation = 1.0471976
+scale = Vector2(0.7237237, 0.789336)
+texture = ExtResource("1_ig7tw")
+
+[node name="player5" type="Sprite2D" parent="." unique_id=298029767]
+position = Vector2(148, 42)
+rotation = -0.7853982
+scale = Vector2(0.7237237, 0.789336)
+texture = ExtResource("1_ig7tw")
+
+[node name="player6" type="Sprite2D" parent="." unique_id=1233683014]
+position = Vector2(151.00002, 246.00003)
+rotation = -2.3561945
+scale = Vector2(0.7237237, 0.789336)
+texture = ExtResource("1_ig7tw")
+
+[node name="player7" type="Sprite2D" parent="." unique_id=723298253]
+position = Vector2(278.00003, 245.99998)
+rotation = 2.3561945
+scale = Vector2(0.7237237, 0.789336)
+texture = ExtResource("1_ig7tw")
+
+[node name="Ball" parent="." unique_id=666672182 instance=ExtResource("2_0xm2m")]
+position = Vector2(495, 249)
+
+[node name="Ball2" parent="." unique_id=867628600 instance=ExtResource("2_0xm2m")]
+position = Vector2(437, 161)
+
+[node name="Ball3" parent="." unique_id=939495042 instance=ExtResource("2_0xm2m")]
+position = Vector2(555, 161)

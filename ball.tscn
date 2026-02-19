@@ -5,6 +5,7 @@
 
 [node name="Ball" type="Sprite2D" unique_id=666672182]
 modulate = Color(1, 0.5137255, 0, 1)
+scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_x8fbi")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=529559708]
