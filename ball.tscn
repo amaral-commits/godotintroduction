@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dw7gny16dn7qo"]
+
+[ext_resource type="Texture2D" uid="uid://d31ovbo23wnfn" path="res://Sprites/ball.png" id="1_x8fbi"]
+[ext_resource type="Texture2D" uid="uid://cfvcxwhyu40fs" path="res://Sprites/Coin.png" id="2_41u45"]
+
+[node name="Ball" type="Sprite2D" unique_id=666672182]
+modulate = Color(1, 0.5137255, 0, 1)
+texture = ExtResource("1_x8fbi")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=529559708]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(1, -37)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_41u45")

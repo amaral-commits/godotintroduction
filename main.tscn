@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://bq86rk42bkd80"]
 
+[ext_resource type="Texture2D" uid="uid://botrgacava1qh" path="res://Sprites/fox sprite.png" id="1_ig7tw"]
+
 [node name="Main" type="Node2D" unique_id=968314353]
+
+[node name="player" type="Sprite2D" parent="." unique_id=111368584]
+position = Vector2(200, 150)
+texture = ExtResource("1_ig7tw")
